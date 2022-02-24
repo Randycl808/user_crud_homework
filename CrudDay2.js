@@ -77,7 +77,7 @@ const updateFood1=(foods, id, price)=>{
 
 }
 
-//---------------------------------------------------------------------
+//---------------------------------------------------------------------Finished
 
 //MAP
 
@@ -90,12 +90,19 @@ const updateFood1=(foods, id, price)=>{
 /// returns new array with the food item updated with the id given
 //put in a whole new food OBJECT
 //
-const updateFood2=(foods, id, food)=>{
+// const updateFood2=(foods, id, food)=>{
 
 
 
- }
-updateFood2(mexican, 1, {id:1 ,name:'cheesecake' , price:100}) //changes name and price
+//  }
+
+//  const updateFood2 = mexican.map((p) => (p.id === 1 ? { ...p, name:'cheesecake' , price:100} : p));
+
+// console.log("Original: ", mexican);
+
+// console.log("New price: ", updateFood2);
+
+// updateFood2(mexican, 1, {id:1 ,name:'cheesecake' , price:100}) //changes name and price
 //------------------------------------------------------------------
 
 // FILTER
@@ -128,4 +135,4 @@ const deleteFood2 = (foods,price)=>{
 
 
 }
-deleteFood2(mexican , >=10)
+// deleteFood2(mexican , >=10) //grab foods Greater or Less than the number
