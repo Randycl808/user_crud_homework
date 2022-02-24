@@ -6,22 +6,22 @@ let american = [{id:1, name:'burgers', price:21},{id:2, name:'pizza rolls',price
 
 
 
-//MAP
+//MAP-------------------------------------------------------------Finished
 
 // foods:[{id:number,name:string, price:number},...]
 
 /// returns array of formatted strings[] (you choose what these look like)
-
-const about = (foods)=>{
-
- 
-
-
-
-}
+// const about = (foods)=>{
+//   return foods.map((mexicanFood) => {
+//       return `${mexicanFood.name} is $${mexicanFood.price}, Kinda pricy`
+//     }
+//   )}
 
 
+// console.log('String:', about(mexican))
 
+
+// ---------------------------------------------------------------Finished
 // [...]
 
 // foods:[{id:number,name:string, price:number},...]
@@ -30,12 +30,14 @@ const about = (foods)=>{
 
 /// returns new array with food add
 
-const addFood1=(foods, food)=>{
+// const addFood1=(foods, food)=>{
+//   return[...foods, food]
+  
+// }
+// const newFood = addFood1(mexican, {id:3 ,name:'cheesecake', price:100})
+// console.log(newFood)
 
-}
-
-
-
+//-----------------------------------------------------------------Finished
 // [...]
 
 // foods:[{id:number,name:string, price:number},...]
@@ -48,14 +50,18 @@ const addFood1=(foods, food)=>{
 
 /// returns new array with food add
 
-const addFood2 = (foods, id,name,price)=>{
+// const addFood2 = (foods, id,name,price)=>{
+//   return[...foods,{id, name, price}]
+  
+//   }
+//   const newFood1 = addFood2(mexican, 3, 'cheesecake', 100)
 
-}
+//   console.log(newFood1)
 
 
 
 
-//MAP
+//MAP-----------------------------------------------------------------
 
 // foods:[{id:number,name:string, price:number},...]
 
@@ -64,14 +70,14 @@ const addFood2 = (foods, id,name,price)=>{
 // price:number}
 
 /// returns new array with the price updated with the id given
-
+//change the price of the given id
 const updateFood1=(foods, id, price)=>{
 
  // Update - Map
 
 }
 
-
+//---------------------------------------------------------------------
 
 //MAP
 
@@ -82,14 +88,15 @@ const updateFood1=(foods, id, price)=>{
 // food:{id:number,name:string, price:number}}
 
 /// returns new array with the food item updated with the id given
-
-const updateFood1=(foods, id, food)=>{
+//put in a whole new food OBJECT
+//
+const updateFood2=(foods, id, food)=>{
 
 
 
  }
-
-
+updateFood2(mexican, 1, {id:1 ,name:'cheesecake' , price:100}) //changes name and price
+//------------------------------------------------------------------
 
 // FILTER
 
@@ -105,8 +112,8 @@ const deleteFood1 = (foods,id)=>{
 
 
 }
-
-
+deleteFood1(mexican , 1) //removes mexican food
+//------------------------------------------------------------------
 
 // FILTER
 
@@ -121,3 +128,4 @@ const deleteFood2 = (foods,price)=>{
 
 
 }
+deleteFood2(mexican , >=10)
