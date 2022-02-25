@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  background-color: rgb(74, 75, 75);
+}
+.Button {
+  background-color: rgb(10, 116, 80);
+}
+
+.Button2 {
+  background-color: rgb(10, 116, 80);
+}
+
+.Button3 {
+  background-color: rgb(147, 152, 153);
+}
+
+.Button4 {
+  background-color: rgb(175, 10, 10);
+}
+
+.Button5 {
+  background-color: rgb(175, 10, 10);
+}
+
+.edit_button {
+  background-color: orange;
+}
+
+.cancel_button {
+  background-color: rgb(175, 10, 10);
+}
+
+.edit_user {
+  background-color: orange;
+}
+
+.log_background {
+  background-color: rgb(217, 219, 214);
+  border-color: rgb(0, 0, 0);
+}
